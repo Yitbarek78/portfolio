@@ -2,7 +2,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
-import { skills, services } from "./data/content";
+import Portfolio from "./components/Portfolio";
+
+import { skills, services, projects } from "./data/content";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
 
         <About skills={skills} />
         <Services items={services} />
+        <Portfolio items={projects} />
       </main>
     </>
   );
