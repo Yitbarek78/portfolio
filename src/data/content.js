@@ -42,3 +42,26 @@ export const services = [
       "Fast loading, accessible pages that search engines can understand.",
   },
 ];
+export const projects = [
+  {
+    letter: "F",
+    title: "FinTrack",
+    description: "Personal finance dashboard with charts, budgets and filters.",
+    stack: "React · Recharts · Tailwind",
+    gradient: "from-emerald-500 to-teal-700",
+  },
+  {
+    letter: "T",
+    title: "TaskFlow",
+    description: "Kanban task manager with drag and drop and saved data.",
+    stack: "React · LocalStorage",
+    gradient: "from-yellow-500 to-orange-700",
+  },
+  {
+    letter: "W",
+    title: "Weather Now",
+    description: "Weather app with city search using a public API.",
+    stack: "JavaScript · API · CSS",
+    gradient: "from-rose-500 to-purple-700",
+  },
+];
