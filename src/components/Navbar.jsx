@@ -24,7 +24,8 @@ function Navbar() {
           <li>
             <a
               href="#portfolio"
-              className="rounded-full bg-mint px-8 py-3 text-bg transition hover:brightness-110"
+              className="block py-3 text-mint"
+              onClick={() => setIsOpen(false)}
             >
               Case Studies
             </a>
