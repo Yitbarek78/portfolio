@@ -4,7 +4,10 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 
-import { skills, services, projects } from "./data/content";
+import { skills, services, projects, contact } from "./data/content";
+
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
         <About skills={skills} />
         <Services items={services} />
         <Portfolio items={projects} />
+
+        <Contact email={contact.email} links={contact.links} />
       </main>
+      <Footer name="Yitbarek" />
     </>
   );
 }

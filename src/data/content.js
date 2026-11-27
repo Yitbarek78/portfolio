@@ -65,3 +65,15 @@ export const projects = [
     gradient: "from-rose-500 to-purple-700",
   },
 ];
+
+export const contact = {
+  email: "yitbarekwlde658@gmail.com",
+  links: [
+    { label: "GitHub", href: "https://github.com/Yitbarek78" },
+    {
+      label: " LinkedIn ",
+      href: "https://www.linkedin.com/in/yitbarek-welde-3a1a74353",
+    },
+    { label: "Twitter", href: "https://twitter.com/" },
+  ],
+};
