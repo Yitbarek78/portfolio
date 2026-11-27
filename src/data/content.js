@@ -67,10 +67,13 @@ export const projects = [
 ];
 
 export const contact = {
-  email: "you@example.com",
+  email: "yitbarekwlde658@gmail.com",
   links: [
-    { label: "GitHub", href: "https://github.com/" },
-    { label: "LinkedIn", href: "https://linkedin.com/" },
+    { label: "GitHub", href: "https://github.com/Yitbarek78" },
+    {
+      label: " LinkedIn ",
+      href: "https://www.linkedin.com/in/yitbarek-welde-3a1a74353",
+    },
     { label: "Twitter", href: "https://twitter.com/" },
   ],
 };
