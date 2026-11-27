@@ -65,3 +65,12 @@ export const projects = [
     gradient: "from-rose-500 to-purple-700",
   },
 ];
+
+export const contact = {
+  email: "you@example.com",
+  links: [
+    { label: "GitHub", href: "https://github.com/" },
+    { label: "LinkedIn", href: "https://linkedin.com/" },
+    { label: "Twitter", href: "https://twitter.com/" },
+  ],
+};
